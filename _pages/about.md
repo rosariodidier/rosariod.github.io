@@ -14,4 +14,4 @@ My research interests lie at the intersection of international trade, labor econ
 
 Before my doctoral studies, I worked as a research assistant at the Central Bank of Chile. I hold a B.A. in Social Science, a B.A. in Economics, and an M.A. in Economics from Pontificia Universidad Católica de Chile.
 
-You can find my CV [here](https://github.com/rosariodidier/rosariod.github.io/blob/bc4b714b2379e959f995cda41ce0aa6a3e2a3f6f/files/CV_RoD.pdf).
+You can find my CV [here]({{ '/files/CV_RoD.pdf' | relative_url }})
