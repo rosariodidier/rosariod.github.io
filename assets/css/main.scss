@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap");
+
 /*
  * This file controls what is imported from /_sass
  *
@@ -41,3 +43,58 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+:root {
+    --global-base-color: #1f4d5c;
+    --global-bg-color: #f6f1e8;
+    --global-footer-bg-color: #f6f1e8;
+    --global-border-color: #e6ddd0;
+    --global-dark-border-color: #c4b5a4;
+    --global-code-background-color: #fcf8f1;
+    --global-code-text-color: #352d27;
+    --global-fig-caption-color: #7d7064;
+    --global-link-color: #8f4d35;
+    --global-link-color-hover: #643523;
+    --global-link-color-visited: #6f5577;
+    --global-masthead-link-color: #2d2926;
+    --global-masthead-link-color-hover: #8f4d35;
+    --global-text-color: #27211d;
+    --global-text-color-light: #7d7064;
+    --global-thead-color: #efe7da;
+}
+
+html[data-theme="dark"] {
+    --global-base-color: #d2a46f;
+    --global-bg-color: #151311;
+    --global-footer-bg-color: #151311;
+    --global-border-color: #2e2823;
+    --global-dark-border-color: #4e443b;
+    --global-code-background-color: #211d19;
+    --global-code-text-color: #efe1cf;
+    --global-fig-caption-color: #ab9d8d;
+    --global-link-color: #ddb08a;
+    --global-link-color-hover: #efc7a8;
+    --global-link-color-visited: #c9b0da;
+    --global-masthead-link-color: #f2e6d6;
+    --global-masthead-link-color-hover: #ddb08a;
+    --global-text-color: #efe1cf;
+    --global-text-color-light: #ab9d8d;
+    --global-thead-color: #211d19;
+}
+
+html {
+    background-color: var(--global-bg-color);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.65;
+}
+
+body {
+    background:
+        radial-gradient(circle at top, rgba(255, 251, 245, 0.95) 0%, rgba(246, 241, 232, 0.98) 38%, rgba(241, 235, 223, 1) 100%);
